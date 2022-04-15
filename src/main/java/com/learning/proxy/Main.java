@@ -18,5 +18,16 @@ public class Main {
     System.out.println("Super Hero Teacher");
     System.out.println(superHeroTeacher.work());
 
+// OUTPUT:
+
+//    Normal teacher
+//      [Teacher] Just another day as a teacher
+//      [Return] teaching
+//    ===========
+//    Super Hero Teacher
+//      [Teacher] Just another day as a teacher
+//      What a day! These kids are killing me, at least I earned some money and have 150.0. 79 years more and I retire!
+//      [Return] teaching
+
   }
 }
