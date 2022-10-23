@@ -1,11 +1,11 @@
-package com.learning.designpatterns.builder;
+package com.learning.designpatterns.creational;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import com.learning.utils.Tuple;
 
-// I could also use a class that defines a CodeElement. But I created a Tuple so I can use it in other exercises.
+// I could also use a class that defines a CodeElement. But I created a Tuple so, I can use it in other exercises.
 class CodeBuilder {
     private String className;
     private List<Tuple<String, String>> elements = new ArrayList<>();
